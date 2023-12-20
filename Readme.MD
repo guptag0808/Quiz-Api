@@ -49,6 +49,8 @@ Before running the application, make sure you have the following installed:
   - Use Postman or any API testing tool to interact with the API endpoints.
 
 ## API Endpoints
+ - POST /auth/signup: Create a new user.
+ - POST /auth/login : For login
  - POST /api/quizzes: Create a new quiz.
  - GET /api/quizzes/active: Retrieve the currently active quiz.
  - GET /api/quizzes/:id/result: Get quiz results for a specific quiz.
@@ -56,13 +58,18 @@ Before running the application, make sure you have the following installed:
 
  ## Authentication
 - Secure your API with JWT-based authentication.
+- Pass the token into the headers
 - Include the JWT token in the Authorization header for protected routes
  
 ## Error Handling
  - Proper error handling is implemented for various scenarios.
  - Check the response status code and the returned JSON for error details
 
-## Schema format to store the quizzes
+## Request.body  for user
+``` username:"",
+    password:""
+
+## Request.body For quizzes
 ```{
   "questions": [
     {
@@ -79,7 +86,7 @@ Before running the application, make sure you have the following installed:
   "startDate": "2023-01-01T12:00:00Z",
   "endDate": "2023-01-01T13:00:00Z"
 }
-}
+
 
 
 
