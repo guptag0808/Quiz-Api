@@ -66,7 +66,8 @@ Before running the application, make sure you have the following installed:
  - Check the response status code and the returned JSON for error details
 
 ## Request.body  for user
-``` username:"",
+ ```bash
+    username:"",
     password:""
 
 
