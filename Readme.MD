@@ -63,7 +63,7 @@ Before running the application, make sure you have the following installed:
  - Check the response status code and the returned JSON for error details
 
 ## Schema format to store the quizzes
--{
+```{
   "questions": [
     {
       "text": "What is the capital of France?",
