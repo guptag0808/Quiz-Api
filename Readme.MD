@@ -80,5 +80,6 @@ Before running the application, make sure you have the following installed:
   "startDate": "2023-01-01T12:00:00Z",
   "endDate": "2023-01-01T13:00:00Z"
 }
+}
 
 
