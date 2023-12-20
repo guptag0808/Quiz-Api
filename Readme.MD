@@ -72,7 +72,8 @@ Before running the application, make sure you have the following installed:
 
 
 ## Request.body For quizzes
-```{
+```bash
+{
   "questions": [
     {
       "text": "What is the capital of France?",
