@@ -65,13 +65,11 @@ Before running the application, make sure you have the following installed:
  - Proper error handling is implemented for various scenarios.
  - Check the response status code and the returned JSON for error details
 
-## Request.body  for user
+## Request.body  for user:
  ```bash
     username:"",
     password:""
-
-
-## Request.body For quizzes
+## Request.body For quizzes:
 ```bash
 {
   "questions": [
