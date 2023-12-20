@@ -70,8 +70,8 @@ Before running the application, make sure you have the following installed:
     username:"",
     password:""
 
-##- Request.body For quizzes:
-```bash
+## Request.body For quizzes:
+
 {
   "questions": [
     {
